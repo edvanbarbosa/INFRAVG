@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, nav, header div {
+    font-family: "Montserrat", serif;
+    background-color: #201B2B;
+
+}
+
+nav{
+    max-width: 1370px;
+    margin: auto;
+}
+header{
+    border-bottom: 0.5px solid #7FACFA;
+}
+h2,h5,a{
+    color: #428DFF !important;
+}
+.navbar-toggler-icon{
+    background-image: url('../assets/images/burguer.svg');
+}
+.btn-close{
+    background-image: url('../assets/images/close.svg');
+}
+main{
+    max-width: 1370px;
+    margin: auto;
+    padding: 0 16px;
+    padding-top: 64px;
+}
+h3{
+    color: #7FACFA;
+}
+.room-device li{
+    background-color: #2C76E5;
+    color: #fff;
+    border: none;
+    border-bottom: 0.5px solid #ffffff53;
+}
+
+.location-link{
+   color: #fff !important;
+   text-decoration: none;
+   transition: 0.3s ease-in-out;
+}
+.location-link:hover{
+    color: #7FACFA !important;
+}
+.room-device li:last-child{
+    border-bottom: none;
+}
+.room-device img{
+    height: 32px;
+}
+.modal-content{
+    background-color: #201B2B;
+    color: #fff;
+}
+.modal-header{
+    border-bottom: 0.5px solid #2C76E5;
+}
+.modal-footer{
+    border-top: 0.5px solid #2C76E5;
+}
